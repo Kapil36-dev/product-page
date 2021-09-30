@@ -1,0 +1,127 @@
+*{
+    font-weight: 700;
+  
+  }
+  
+  .product_container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 35px;
+  }
+  
+  /* .product_image img{ */
+     /* width: calc(50px + 30vw); */
+  /* } */
+  
+  .product_details{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+  }
+  
+  .product_category{
+      display: inline;
+      border-radius: 30px;
+  }
+  
+  
+  
+  .product_category_details_left{
+  padding: 8px 35px;
+      border: 1px solid var(--blue);
+      background: var(--blue);
+      border-bottom-left-radius: 30px;
+      border-top-left-radius: 30px;
+      color: var(--white);
+  }
+  .product_category_details_right{
+  padding: 8px 35px;
+      border: 1px solid var(--grey);
+  background: var(--white);
+      border-bottom-right-radius: 30px;
+      border-top-right-radius: 30px;
+      color: var(--blue);
+  }
+  
+  .product_details_heading{
+  
+      margin-top: 30px;
+  }
+  
+  .product_title{
+      display: flex;
+      justify-content: space-between;
+    
+  }
+  
+  .product_name{
+      color: var(--blue);
+      font-size: 2rem;
+  }
+  
+  .product_info{
+      color: var(--light_black);
+      font-size: 0.9rem;
+  }
+  
+  .product_details_options{
+      display: flex;
+      margin-top: 30px;
+  }
+  .about_product{
+     border: 1px solid var(--light_black);
+     border-radius: 30px;
+     padding: 8px 30px;
+     margin:0 5px ;
+     cursor: pointer;
+  }
+  
+  .about_product:hover{
+    background: var(--grey);
+  }
+  
+  .product_price{
+      margin-top: 30px;
+  }
+  .product_current_price{
+      font-size: 1.4rem;
+  }
+  .product_mrp{
+      color: var(--blue);
+      font-size: 1.4rem;
+  }
+  
+  .product_real_price{
+      color: var(--light_black);
+      text-decoration:line-through;
+      padding-left: 4px;
+  }
+  
+  
+  .product_details_button button{
+      margin-top: 30px;
+  padding: 10px 30px;
+      border-radius: 30px;
+      margin: 10px auto;
+      width: 80%;
+  font-size: 1rem;
+  cursor: pointer;
+  }
+  
+  .product_buy_button{
+  border: 1px solid var(--blue);
+  background: var(--blue);
+  color: var(--white);
+  }
+  
+  .product_addtocart_button{
+      border: 1px solid var(--light_black);
+   color: var(--blue);
+  }
+  .product_buy_button:hover{
+      text-decoration: underline;
+  }
+  
+  .product_addtocart_button:hover{
+      background: var(--grey);
+  }

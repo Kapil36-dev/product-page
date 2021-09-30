@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
 /* top-section */
-.product_category{
-    box-shadow: 0px 2px 5px 0px rgb(110, 110, 110);
+.product__category{
+    box-shadow: 0px 2px 20px 0px rgb(110, 110, 110);
     font-weight: bolder;
     font-family: 'Open Sans', sans-serif;
     position: sticky;
@@ -13,6 +13,11 @@
     padding: 7px 40px;
     justify-content: space-between;
     font-size: calc(6px + 1.2vw);
+}
+
+.category_heading{
+    font-weight: 700;
+    font-size: calc(11px + 1.1vw);
 }
 
 .category_options{
@@ -30,18 +35,18 @@
 
 
 .product_section {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
 .recommended-heading{
-    margin: 29px 0;
+    margin: 29px 0 29px 28px;
     color: darkblue;
     font-size: calc(8px + 1.7vw);
 }
 
 .other-heading{
-    margin: 29px 0;
+    margin: 29px 0 29px 28px;
     color: darkblue;
     font-size: calc(8px + 1.7vw);
 }
@@ -49,7 +54,13 @@
 
 .cards-item{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+}
+
+
+.basket-length{
+    position: absolute;
+    top: 0px;
+    color: red;
 }
 
